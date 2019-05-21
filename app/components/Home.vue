@@ -10,6 +10,7 @@
 
 <script>
 import countService from '../services/countService';
+import game from '../data.json'; 
 
 export default {
   data() {
