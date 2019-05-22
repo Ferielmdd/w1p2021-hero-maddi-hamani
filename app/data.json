@@ -3,14 +3,15 @@
     {
       "id": 1,
       "title": "TU ES ...",
+      "img": "../assets/img/fond.png",
       "actions": [
         {
           "label": "JOHN",
-          "to": 2,
+          "to": 2
         },
         {
           "label": "HANNA",
-          "to": 2,
+          "to": 2
         }
       ]
     },
@@ -20,11 +21,11 @@
       "actions": [
         {
           "label": "Interrogeant les témoins",
-          "to": 3,
+          "to": 3
         },
         {
           "label": "Fouillant les lieux",
-          "to": 12,
+          "to": 12
         }
       ]
     },
@@ -34,11 +35,11 @@
       "actions": [
         {
           "label": "L'accessoiriste",
-          "to": 4,
+          "to": 4
         },
         {
           "label": "Le metteur en scene",
-          "to": 5,
+          "to": 5
         }
       ]
     },
@@ -48,11 +49,11 @@
       "actions": [
         {
           "label": "Metteur en scene",
-          "to": 5,
+          "to": 5
         },
         {
           "label": "Producteur",
-          "to": 7,
+          "to": 7
         }
       ]
     },
@@ -62,11 +63,11 @@
       "actions": [
         {
           "label": "Doublure",
-          "to": 8,
+          "to": 8
         },
         {
           "label": "Agent d'entretien",
-          "to": 9,
+          "to": 9
         }
       ]
     },
@@ -76,11 +77,11 @@
       "actions": [
         {
           "label": "Doublure",
-          "to": 8,
+          "to": 8
         },
         {
           "label": "Agent d'entretien",
-          "to": 9,
+          "to": 9
         }
       ]
     },
@@ -90,11 +91,11 @@
       "actions": [
         {
           "label": "Doublure",
-          "to": 8,
+          "to": 8
         },
         {
           "label": "Agent d'entretien",
-          "to": 9,
+          "to": 9
         }
       ]
     },
@@ -104,11 +105,11 @@
       "actions": [
         {
           "label": "Agent d'entretien",
-          "to": 9,
+          "to": 9
         },
         {
           "label": "Producteur",
-          "to": 7,
+          "to": 7
         }
       ]
     },
@@ -118,11 +119,11 @@
       "actions": [
         {
           "label": "Doublure",
-          "to": 8,
+          "to": 8
         },
         {
           "label": "Hanna",
-          "to": 10,
+          "to": 10
         }
       ]
     },
@@ -132,7 +133,7 @@
       "actions": [
         {
           "label": "Non, retourner en arrière",
-          "to": 9,
+          "to": 9
         },
         {
           "label": "Oui",
@@ -147,11 +148,11 @@
       "actions": [
         {
           "label": "La loge",
-          "to": 13,
+          "to": 13
         },
         {
           "label": "Scene",
-          "to": 17,
+          "to": 17
         },
       ]
     },
@@ -161,7 +162,7 @@
       "actions": [
         {
           "label": "La Poubelle",
-          "to": 14,
+          "to": 14
         },
       ]
     },
@@ -171,11 +172,11 @@
       "actions": [
         {
           "label": "La cravate",
-          "to": 15,
+          "to": 15
         },
         {
           "label": "Le châle",
-          "to": 16,
+          "to": 16
         }
       ]
     },
@@ -185,7 +186,7 @@
       "actions": [
         {
           "label": "au metteur en scene",
-          "to": 5,
+          "to": 5
         },
       ]
     },
@@ -195,7 +196,7 @@
       "actions": [
         {
           "label": "à l'accessoiriste",
-          "to": 4,
+          "to": 4
         },
       ]
     },
@@ -205,11 +206,11 @@
       "actions": [
         {
           "label": "La paire de lunette",
-          "to": 18,
+          "to": 18
         },
         {
           "label": "Le châle",
-          "to": 19,
+          "to": 19
         }
       ]
     },
@@ -219,11 +220,11 @@
       "actions": [
         {
           "label": "au metteur en scene",
-          "to": 5,
+          "to": 5
         },
         {
           "label": "à l'accessoiriste",
-          "to": 4,
+          "to": 4
         }
       ]
     },

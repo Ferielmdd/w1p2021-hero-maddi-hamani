@@ -1,5 +1,8 @@
 <template>
-  <div>
+  <div class="container" 
+  rel="preload" 
+  v-bind:style="{ 'background-img': 'url('+ step.img +')' }"
+  >
     <h1>{{ step.title }}</h1>
     <ul>
       <li v-on:click="doActions(action)" v-for="action in step.actions" :key="action.step">
@@ -10,6 +13,18 @@
     </ul>
   </div>
 </template>
+
+<style lang="scss" scoped>
+.container{
+      background-size: 100%;
+}
+  .container {
+    height: 100vh;
+    background-repeat: no-repeat;
+    
+
+  }
+</style>
 
 <script>
 

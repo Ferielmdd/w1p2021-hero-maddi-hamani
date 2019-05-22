@@ -5,12 +5,18 @@
     <router-link class="button" to="/page">Go to Page</router-link>
     <br />
     <button class="button" @click="handleClick">Click me up</button>
+    <link rel="preload">
   </div>
 </template>
-
+ 
+ <style scoped>
+ 
+ </style>
+ 
 <script>
 import countService from '../services/countService';
 import game from '../data.json'; 
+
 
 export default {
   data() {
