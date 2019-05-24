@@ -1,31 +1,19 @@
 {
-  "steps":[
-    {
-      "id": 1,
-      "title": "TU ES ...",
-      "img": "../assets/img/fond.png",
-      "actions": [
-        {
-          "label": "JOHN",
-          "to": 2
-        },
-        {
-          "label": "HANNA",
-          "to": 2
-        }
-      ]
-    },
+  
+"steps":[
     {
       "id": 2,
       "title": "Veux-tu commencer ton enquête en ...",
       "actions": [
         {
           "label": "Interrogeant les témoins",
-          "to": 3
+          "to": 3,
+          "images": "../assets/img/mic.png"
         },
         {
           "label": "Fouillant les lieux",
-          "to": 12
+          "to": 12,
+          "images": "../assets/img/loupe.png"
         }
       ]
     },
@@ -35,11 +23,13 @@
       "actions": [
         {
           "label": "L'accessoiriste",
-          "to": 4
+          "to": 4,
+          "images": "../assets/img/img13.png"
         },
         {
           "label": "Le metteur en scene",
-          "to": 5
+          "to": 5,
+          "images": "../assets/img/img6.png"
         }
       ]
     },
@@ -49,11 +39,13 @@
       "actions": [
         {
           "label": "Metteur en scene",
-          "to": 5
+          "to": 5,
+          "images": "../assets/img/img6.png"
         },
         {
           "label": "Producteur",
-          "to": 7
+          "to": 7,
+          "images": "../assets/img/img10.png"
         }
       ]
     },
@@ -63,11 +55,13 @@
       "actions": [
         {
           "label": "Doublure",
-          "to": 8
+          "to": 8,
+          "images": "../assets/img/img9.png"
         },
         {
           "label": "Agent d'entretien",
-          "to": 9
+          "to": 9,
+          "images": "../assets/img/img12.png"
         }
       ]
     },
@@ -105,11 +99,13 @@
       "actions": [
         {
           "label": "Agent d'entretien",
-          "to": 9
+          "to": 9,
+          "images": "../assets/img/img12.png"
         },
         {
           "label": "Producteur",
-          "to": 7
+          "to": 7,
+          "images": "../assets/img/img10.png"
         }
       ]
     },
@@ -119,27 +115,30 @@
       "actions": [
         {
           "label": "Doublure",
-          "to": 8
+          "to": 8,
+          "images": "../assets/img/img9.png"
         },
         {
           "label": "Hanna",
-          "to": 10
+          "to": 10,
+          "images": "../assets/img/hanna.png"
         }
       ]
     },
     {
       "id": 10,
-      "title": "Hanna est-elle coupable ?",
+      "title": "Qui est coupable?",
       "actions": [
         {
-          "label": "Non, retourner en arrière",
-          "to": 9
+          "label": "Hanna",
+          "lose": "Game Over",
+          "images": "../assets/img/hanna.png"
         },
         {
-          "label": "Oui",
-          "lose": "Game Over",
-          "reason": "ton enquête n'a pas abouti, laisse la police s'en occuper",
-        },
+          "label": "La doublure",
+          "win": "Win",
+          "images": "../assets/img/img9.png"
+        }
       ]
     },
     {
@@ -148,22 +147,14 @@
       "actions": [
         {
           "label": "La loge",
-          "to": 13
+          "to": 14,
+          "images": "../assets/img/img1.png"
         },
         {
           "label": "Scene",
-          "to": 17
-        },
-      ]
-    },
-    {
-      "id": 13,
-      "title": "Veux-tu fouiller...",
-      "actions": [
-        {
-          "label": "La Poubelle",
-          "to": 14
-        },
+          "to": 17,
+          "images": "../assets/img/img2.png"
+        }
       ]
     },
     {
@@ -172,11 +163,13 @@
       "actions": [
         {
           "label": "La cravate",
-          "to": 15
+          "to": 15,
+          "images": "../assets/img/img3.png"
         },
         {
           "label": "Le châle",
-          "to": 16
+          "to": 16,
+          "images": "../assets/img/img4.png"
         }
       ]
     },
@@ -186,8 +179,9 @@
       "actions": [
         {
           "label": "au metteur en scene",
-          "to": 5
-        },
+          "to": 5,
+          "images": "../assets/img/img6.png"
+        }
       ]
     },
     {
@@ -196,8 +190,9 @@
       "actions": [
         {
           "label": "à l'accessoiriste",
-          "to": 4
-        },
+          "to": 4,
+          "images": "../assets/img/img13.png"
+        }
       ]
     },
     {
@@ -206,11 +201,13 @@
       "actions": [
         {
           "label": "La paire de lunette",
-          "to": 18
+          "to": 18,
+          "images": "../assets/img/img15.png"
         },
         {
           "label": "Le châle",
-          "to": 19
+          "to": 16,
+          "images": "../assets/img/img4.png"
         }
       ]
     },
@@ -220,16 +217,15 @@
       "actions": [
         {
           "label": "au metteur en scene",
-          "to": 5
+          "to": 5,
+          "images": "../assets/img/img6.png"
         },
         {
           "label": "à l'accessoiriste",
-          "to": 4
+          "to": 4,
+          "images": "../assets/img/img13.png"
         }
       ]
-    },
+    }
   ] 
 }
-
-
-
